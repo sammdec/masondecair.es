@@ -11,12 +11,20 @@
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
-  <header>
-    <h1>Sam Mason</h1>
+  <header class="container">
+      <h1>Sam Mason</h1>
+      <nav>
+        <a href="/about/">About</a>
+        <a href="/projects/">Projects</a>
+      </nav>
   </header>
 
-  <footer>
+  <section class="page-content container">
+    {{ content }}
+  </section>
 
+  <footer class="container">
+    <small>Made in London with <img src="" alt=""> by Sam Mason  </small>
   </footer>
 
 </body>

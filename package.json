@@ -1,0 +1,11 @@
+{
+  "name": "maison.io",
+  "version": "0.1.0",
+  "devDependencies": {
+    "gulp": "~3.5.2",
+    "gulp-sass": "~0.7.0",
+    "gulp-imagemin": "~0.1.5",
+    "gulp-minify-css": "~0.3.0",
+    "gulp-exec": "~1.0.4"
+  }
+}

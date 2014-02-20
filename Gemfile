@@ -2,14 +2,8 @@ source 'https://rubygems.org'
 
 ruby '2.1.0'
 
-# simple http
-gem 'sinatra'
+# Static site generator
+gem 'jekyll'
 
-# Database storage
-gem 'sqlite3'
-
-# ORM
-gem 'activerecord'
-
-# ORM helpers for sinatra
-gem 'sinatra-activerecord'
+# Mount jekyll on rack
+gem 'rack-jekyll',  github: 'adaoraul/rack-jekyll'

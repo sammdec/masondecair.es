@@ -1,0 +1,19 @@
+name: Sam Mason
+url: http://maison.io
+
+markdown: redcarpet
+pygments: true
+
+permalink: pretty
+
+exclude: [
+  "vendor",
+  "node_modules",
+  "tmp",
+  ".rbenv-gemsets",
+  "gulpfile.js",
+  "package.json",
+  "config.ru",
+  "Gemfile",
+  "Gemfile.lock"
+]

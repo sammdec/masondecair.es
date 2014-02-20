@@ -48,4 +48,23 @@ footer {
   margin: 24px 0;
   font-size: 12px;
 }
+
+h2 {
+  font-family: 'Verlag A', 'Verlag B';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+time {
+  font-size: 18px;
+  font-style: italic;
+  color: #bcc3c4;
+}
+
+.posts {
+  li {
+    border-bottom: 2px solid #f9caca;
+  }
 }

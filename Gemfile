@@ -7,3 +7,9 @@ gem 'jekyll'
 
 # Mount jekyll on rack
 gem 'rack-jekyll',  github: 'adaoraul/rack-jekyll'
+
+# Mixins
+gem 'bourbon'
+
+# Grid system
+gem 'neat'

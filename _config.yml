@@ -15,5 +15,6 @@ exclude: [
   "package.json",
   "config.ru",
   "Gemfile",
-  "Gemfile.lock"
+  "Gemfile.lock",
+  "main.scss"
 ]

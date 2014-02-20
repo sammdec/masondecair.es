@@ -2,12 +2,14 @@
 layout: default
 title: Your New Jekyll Site
 ---
-
-<div id="home">
-  <h1>Blog Posrr</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+<ul class="posts">
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <time datetime="{{ post.date }}">{{ post.date | date_to_long_string }}</time>
+      <div class="excerpt">
+        {{ post.excerpt }}
+      </div> <!--  .excerpt -->
+    </li>
+  {% endfor %}
+</ul>

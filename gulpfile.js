@@ -5,7 +5,7 @@ var gulp = require('gulp'),
     exec = require('gulp-exec');
 
 gulp.task('css', function() {
-  gulp.src('assets/css/**/*.scss')
+  gulp.src('assets/css/main.scss')
     .pipe(sass())
     .pipe(minify())
     .pipe(gulp.dest('assets/css'))

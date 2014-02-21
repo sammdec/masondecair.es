@@ -3,7 +3,7 @@ html:before,html:after,body:before,body:after{
     background: #f0f2f1;
     position:fixed;
     display:block;
-    z-index:5;
+    z-index:10;
 }
 
 html:before{
@@ -32,4 +32,6 @@ body:after{
     top:0;
     bottom:0;
     left:0;
+    z-index: 5;
+    border-right: $border-thickness solid #ec6060;
 }

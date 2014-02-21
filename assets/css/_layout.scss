@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #ec6060;
   text-decoration: none;
   transition: color 0.4s;
   &:hover {
-    color: #ec6060;
+    color: inherit;
   }
 }
 
@@ -41,6 +41,10 @@ header {
     text-align: right;
     a {
       margin-left: 12px;
+      color: inherit;
+      &:hover {
+        color: #ec6060;
+      }
     }
   }
 }

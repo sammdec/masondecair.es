@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: developer, designer
 ---
 <ul class="posts">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <time datetime="{{ post.date }}">{{ post.date | date_to_long_string }}</time>
@@ -13,3 +13,23 @@ title: Your New Jekyll Site
     </li>
   {% endfor %}
 </ul>
+
+<nav class="pagination">
+{% if paginator.previous_page == 1 %}
+  <a href="/">Newer</a>
+{% elsif paginator.previous_page %}
+  <a href="/blog/p{{ paginator.previous_page }}">Newer</a>
+{% else %}
+  <span>Newer</span>
+{% endif %}
+
+<span class="separator">&middot;</span>
+
+{% if page == 1 %}
+  <a href="/">Older</a>
+{% elsif paginator.next_page %}
+  <a href="/blog/p{{ paginator.next_page }}">Older</a>
+{% else %}
+  <span>Older</span>
+{% endif %}
+</nav> <!--  .pagination -->

@@ -4,7 +4,10 @@ url: http://maison.io
 markdown: redcarpet
 pygments: true
 
-permalink: pretty
+permalink: /blog/:title
+
+paginate: 5
+paginate_path: /blog/p:num
 
 exclude: [
   "vendor",

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
 
-  <title>Sam Mason x Developer</title>
+  <title>Sam Mason x {% if page.title %} {{page.title}} {% else %}Developer {% endif %} </title>
   <meta name="description" content="I'm Sam Mason a London based developer, and this is my collection of stories &amp; posts.">
 
   <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6776652/769702/css/fonts.css" />
@@ -12,7 +12,7 @@
 </head>
 <body>
   <header class="container">
-      <h1>Sam Mason</h1>
+      <h1><a href="/">Sam Mason</a></h1>
       <nav>
         <a href="/about/">About</a>
         <a href="/projects/">Projects</a>

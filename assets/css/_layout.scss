@@ -3,9 +3,10 @@ body {
   font-weight: 400;
   font-style: normal;
   color: #353b3c;
-  padding: $border-thickness;
-  font-size: 16px;
-  line-height: 1.4;
+  margin: #{$border-thickness * 2};
+  margin-left: #{($border-thickness * 2) + $border-thickness};
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .container {

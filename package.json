@@ -6,6 +6,7 @@
     "gulp-sass": "~0.7.0",
     "gulp-imagemin": "~0.1.5",
     "gulp-minify-css": "~0.3.0",
-    "gulp-exec": "~1.0.4"
+    "gulp-exec": "~1.0.4",
+    "gulp-cache": "~0.1.2"
   }
 }

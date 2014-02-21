@@ -22,16 +22,20 @@ a {
   }
 }
 
+p {
+  margin-bottom: 27px;
+}
+
 header {
   font-family: 'Verlag A', 'Verlag B';
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
-  margin-top: 24px;
-  line-height: 54px;
-  margin-bottom: 36px;
+  padding-top: 27px;
+  line-height: 40px;
+  margin-bottom: 40px;
   h1 {
-    font-size: 42px;
+    font-size: 27px;
     letter-spacing: 2px;
     @include span-columns(6);
   }
@@ -50,16 +54,26 @@ header {
 }
 
 footer {
-  margin: 24px 0;
+  margin: 27px 0;
   font-size: 12px;
+  .heart-icon {
+    width: 1em;
+  }
 }
 
 h2 {
   font-family: 'Verlag A', 'Verlag B';
-  font-weight: 700;
+  font-weight: 300;
   font-style: normal;
-  font-size: 28px;
+  font-size: 27px;
   text-transform: uppercase;
+  margin-bottom: 8px;
+  a {
+    color: #ec6060;
+    &:hover {
+      color: #353b3c;
+    }
+  }
 }
 
 time {
@@ -71,6 +85,12 @@ time {
 
 .posts {
   li {
-    border-bottom: 2px solid #f9caca;
+    margin-bottom: 36px;
+  }
+}
+
+article {
+  h2 {
+    text-align: center;
   }
 }

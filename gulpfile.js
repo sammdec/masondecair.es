@@ -28,4 +28,4 @@ gulp.task('watch', function() {
   gulp.watch('assets/img/*', ['images']);
 });
 
-gulp.task('default', ['css', 'images', 'jekyll', 'watch']);
+gulp.task('default', ['css', 'jekyll', 'watch']);

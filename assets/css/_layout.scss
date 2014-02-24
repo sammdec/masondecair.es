@@ -133,3 +133,14 @@ article {
   }
 }
 
+@include keyframes(colourFade) {
+  0% {
+    border-color: #ec6060;
+  }
+  50% {
+    border-color: #5e4585;
+  }
+  100% {
+    border-color: #80cfd6;
+  }
+}

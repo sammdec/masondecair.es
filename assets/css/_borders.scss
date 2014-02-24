@@ -43,6 +43,7 @@ body:after{
   left:0;
   z-index: 5;
   border-right: $border-thickness solid #ec6060;
+  @include animation(colourFade 12s linear infinite alternate);
   @include media($large) {
     width: #{$border-thickness / 2};
     border-right: #{$border-thickness / 2} solid $secondary-color;

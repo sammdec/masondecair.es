@@ -13,3 +13,6 @@ gem 'bourbon'
 
 # Grid system
 gem 'neat'
+
+#Fast web server
+gem 'thin'

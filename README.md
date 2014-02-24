@@ -1,4 +1,4 @@
-# Here lies maison.io
+# Bazinga, Hello and Welcome!
 
 Welcome all to the repo for my website, [maison.io](http://maison.io). This is the second major iteration of this website, in that time I have learnt alot and have moved away from php powered blogging tools and instead I'm now using Jekyll.
 

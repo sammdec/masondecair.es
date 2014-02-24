@@ -14,7 +14,7 @@ gulp.task('css', function() {
 
 gulp.task('jekyll', function() {
   gulp.src('')
-    .pipe(exec('bundle exec jekyll build -w'));
+    .pipe(exec('bundle exec jekyll build -w --config _config-dev.yml'));
 });
 
 gulp.task('images', function() {

@@ -7,8 +7,8 @@ I'm hoping with this new site I can use it much as a platform rather than lockin
 ## What's in here anyway
 
 A few things I hope you will find interesting
-- Uncompressed SCSS files
-- Gulpfile that helps get all the parts binded together
+- Uncompressed [SCSS](https://github.com/samjbmason/maison.io/tree/master/assets/css) files
+- [Gulpfile](https://github.com/samjbmason/maison.io/blob/master/gulpfile.js) that helps get all the parts binded together
 
 ## Workflow
 

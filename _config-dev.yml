@@ -1,7 +1,7 @@
 name: Sam Mason
-url: http://maison.io
+url: http://maison.dev
 
-production: true
+production: false
 
 markdown: redcarpet
 pygments: true

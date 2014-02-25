@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Come in… take a pew!'
+title: Come in… take a pew!
 categories:
   - general
 feat_image: 'home.jpg'
@@ -8,7 +8,8 @@ feat_image: 'home.jpg'
 This is the first of hopefully many posts for this fine blog. Im not 100% sure yet what it is going to contain yet but hopefully that will figure itself out in time, so lets get going!
 
 I have always wanted to have a blog that contained interesting articles and something that I could use a sort of personal archive of things I would otherwise forget if it were left up to  my brain. The biggest sticking point I have found was what to focus the articles around, I'm passionate about a lot of things but have never felt that I was worthy enough to hold an authoritative opinion on any the topics, It would be at about this point I would give up on writing and sack off the idea for another few months.
-<!--more--> However, I now believe I have a fairly strong grasp of the web development world and the languages that surround that if I were to open my mouth it wouldn't be drivel.
+
+However, I now believe I have a fairly strong grasp of the web development world and the languages that surround that if I were to open my mouth it wouldn't be drivel.
 
 Writing has always been a sticking point for me, I really enjoy it but have found it hard to sit down and concentrate putting my thoughts down in a logical way (that and university has a way of beating the enjoyment out it). I also believe that if you do something enough times you will eventually get better at it. This is what happened when I started out as developer, at first the code was bad..real bad, but then slowly but surely it got more legible, flowed nicer and as a result the sites would often look better and work more robustly.
 

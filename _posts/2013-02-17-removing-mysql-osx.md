@@ -11,15 +11,15 @@ Anyway, I had installed MySQL using the native .dmg from Oracle and decided I wo
 <li>Backup any databases you have using mysqldump</li>
 <li>Stop MySQL using the pref panel </li>
 <li>Open Terminal and type in the following commands</li>
-<li><code>sudo rm /usr/local/mysql</code></li>
-<li><kbd>sudo rm -rf /usr/local/mysql*</kbd></li>
-<li><kbd>sudo rm -rf /Library/StartupItems/MySQLCOM</kbd></li>
-<li><kbd>sudo rm -rf /Library/PreferencePanes/My*</kbd></li>
-<li>edit <kbd>/etc/hostconfig</kbd> and remove the line <kbd>MYSQLCOM=-YES-</kbd></li>
-<li><kbd>rm -rf ~/Library/PreferencePanes/My*</kbd></li>
-<li><kbd>sudo rm -rf /Library/Receipts/mysql*</kbd></li>
-<li><kbd>sudo rm -rf /Library/Receipts/MySQL*</kbd></li>
-<li><kbd>sudo rm -rf /private/var/db/receipts/*mysql*</kbd></ol>
+<li><pre>sudo rm /usr/local/mysql</pre></li>
+<li><pre>sudo rm -rf /usr/local/mysql*</pre></li>
+<li><pre>sudo rm -rf /Library/StartupItems/MySQLCOM</pre></li>
+<li><pre>sudo rm -rf /Library/PreferencePanes/My*</pre></li>
+<li>edit <pre>/etc/hostconfig</pre> and remove the line <pre>MYSQLCOM=-YES-</pre></li>
+<li><pre>rm -rf ~/Library/PreferencePanes/My*</pre></li>
+<li><pre>sudo rm -rf /Library/Receipts/mysql*</pre></li>
+<li><pre>sudo rm -rf /Library/Receipts/MySQL*</pre></li>
+<li><pre>sudo rm -rf /private/var/db/receipts/*mysql*</pre></ol>
 </ol>
 
 At this point it should be all uninstalled and at that point you can install it through homebrew.

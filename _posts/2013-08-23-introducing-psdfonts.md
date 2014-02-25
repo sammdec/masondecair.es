@@ -17,6 +17,6 @@ The site is built with ruby and the small (but perfectly formed) framework [Sina
 
 Since building psdfonts I have really started to understand why so many people rave about ruby, it really does read like a human language.
 
-One of the biggest helps to the project was the awesome [psd.rb](http://cosmos.layervault.com/psdrb.html) gem from the über talented people at Layervault, it is a library that parses psd files and allows you to then traverse the different layer data.
+One of the biggest helps to the project was the awesome [psd.rb](http://cosmos.layervault.com/psdrb.html) gem from the uber talented people at Layervault, it is a library that parses psd files and allows you to then traverse the different layer data.
 
 All in all it's been a fun little project that I hope to grow over time, I would love to hear what people thing about it and if there are any glaring omissions that I have overlooked. Either way let me know by dropping me a messag on [twitter](http://twitter.com/samjbmason).

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Come in… take a pew!
+title: Come in... take a pew!
 categories:
   - general
 ---
@@ -12,7 +12,7 @@ However, I now believe I have a fairly strong grasp of the web development world
 
 Writing has always been a sticking point for me, I really enjoy it but have found it hard to sit down and concentrate putting my thoughts down in a logical way (that and university has a way of beating the enjoyment out it). I also believe that if you do something enough times you will eventually get better at it. This is what happened when I started out as developer, at first the code was bad..real bad, but then slowly but surely it got more legible, flowed nicer and as a result the sites would often look better and work more robustly.
 
-#### That resolution thing…
+#### That resolution thing...
 
 I really enjoy a challenge and so therefore, while realising that I have *probably* missed the boat on becoming a child music sensation/prodigy eg. Donnie Osmond, I instead will sit down and try to write a blog. I have tied this challenge up in a New Years Resolution type shell, where I have committed to write *at least* one post a week for the length of 2013.
 

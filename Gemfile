@@ -1,12 +1,9 @@
 source 'https://rubygems.org'
 
-ruby '2.1.0'
+ruby '2.1.2'
 
 # Static site generator
-gem 'jekyll'
-
-# Mount jekyll on rack
-gem 'rack-jekyll', github: 'adaoraul/rack-jekyll'
+gem 'github-pages'
 
 # Mixins
 gem 'bourbon'

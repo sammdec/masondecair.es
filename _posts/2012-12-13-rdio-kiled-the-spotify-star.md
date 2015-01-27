@@ -14,7 +14,7 @@ The service now includes a new remote control which allows you to control Rdio i
 
 The new iOS app is a joy to use and seems a lot  more responsive than the Spotify equivalent, it utilises the now frequently used Off-Canvas layout that Facebook and Path have championed. When playing a an album it tackles the artwork vs track listing display very well. You start with at the album artwork and a now playing bar  you can then scroll down to the track listing underneath it there is a contextual button at the top that allows you to jump to either view. This looks great on the iPhone 5 as it takes full advantage of the taller screen.
 
-<img src="{{ site.url }}/assets/img/rdio_ios.png" alt="Rdio track listing view">
+<img src="{{ site.url }}/img/rdio_ios.png" alt="Rdio track listing view">
 
 I like that Rdio allows you to store albums to a library, as I'm pretty indecisive about what I want to listen to its nice going to a screen that displays all of them. I also see it as a really neat way of creating a curated taste as you can listen to any music with ease and then any albums you really love you can simply add them to your collection to show followers what your ideal taste is rather than them seeing that time you played Niki Minaj while drunk one night.
 
@@ -22,4 +22,3 @@ I like that Rdio allows you to store albums to a library, as I'm pretty indecisi
 Both services have a friending aspect which allows you to connect to social networks and see what your friends are listening to. Spotify has buddied up with Facebook and Rdio has gone with Twitter. While I enjoy seeing what my friends listen to I would like to think I know them well enough to kind of guess what genre's and bands they would listen to. Most of the people I follow on Rdio are folks from the web industry and I don't know why but I find it interesting to see what they are listening to.
 
 So to sum up, even though I was pushed a little bit into using Rdio its a decision I have not looked back on and for the time being it has won my monthly music subscription.
-

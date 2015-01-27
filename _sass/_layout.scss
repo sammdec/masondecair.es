@@ -1,5 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:700|Droid+Serif:400,700);
+
 body {
-  font-family: 'Sentinel SSm A', 'Sentinel SSm B';
+  font-family: 'Droid Serif', serif;
   font-weight: 400;
   font-style: normal;
   background: #ffffff;
@@ -37,7 +39,7 @@ p {
 }
 
 header {
-  font-family: 'Verlag A', 'Verlag B';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
@@ -90,7 +92,7 @@ footer {
 }
 
 h2 {
-  font-family: 'Verlag A', 'Verlag B';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 27px;
@@ -133,7 +135,7 @@ article {
 }
 
 .pagination {
-  font-family: 'Verlag A', 'Verlag B';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   span {
@@ -169,7 +171,7 @@ img {
 }
 
 blockquote {
-  font-family: 'Verlag A', 'Verlag B';
+  font-family: 'PT Sans', sans-serif;
   font-size: 24px;
   border-left: 2px solid $omega-color;
   margin-bottom: 24px;
@@ -242,7 +244,7 @@ pre {
 
 
 h3 {
-  font-family: 'Verlag A', 'Verlag B';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }

@@ -1,35 +1,20 @@
 ---
 layout: default
-title: developer, designer
+title: About me
 ---
-<ul class="posts">
-  {% for post in paginator.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <time datetime="{{ post.date }}">{{ post.date | date_to_long_string }}</time>
-      <div class="excerpt">
-        {{ post.excerpt }}
-      </div> <!--  .excerpt -->
-    </li>
-  {% endfor %}
-</ul>
 
-<nav class="pagination">
-{% if paginator.previous_page == 1 %}
-  <a href="/">Newer</a>
-{% elsif paginator.previous_page %}
-  <a href="/blog/p{{ paginator.previous_page }}">Newer</a>
-{% else %}
-  <span>Newer</span>
-{% endif %}
+<article class="single-page">
+  <div class="about-meta">
+    <img class="me" src="/img/me.jpg" alt="me - Sam Mason">
+  </div>
 
-<span class="separator">&middot;</span>
+  <p>My name is Sam, I am a developer/ designer in London, UK. I love learning and building things for the web. These things range from services to help people to geeky tools.</p>
 
-{% if page == 1 %}
-  <a href="/">Older</a>
-{% elsif paginator.next_page %}
-  <a href="/blog/p{{ paginator.next_page }}">Older</a>
-{% else %}
-  <span>Older</span>
-{% endif %}
-</nav> <!--  .pagination -->
+  <p>Im currently making magical moments at Lost My Name as a frontend developer. You can hear my ramblings on <a href="http://twitter.com/samjbmason">Twitter</a> and all of the code I churn out is on <a href="http://github.com/samjbmason">GitHub</a>.</p>
+
+  <p>Also, all of the source code for this site is online and can be found <a href="https://github.com/samjbmason/samjbmason.github.io">here</a>. Feel free to suggest fixes for bugs or improvements.</p>
+
+  <p>I live in North London with my wife Sasha, we also share our abode with our cat, Rufus.</p>
+
+  <p>I'm always up for meeting and speaking to people, old &amp; new. If you want to talk, drop me an email at <a href="mailto:sam.jbmason@gmail.com">sam.jbmason@gmail.com</a>.</p>
+</article>

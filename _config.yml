@@ -3,7 +3,6 @@ url: http://maison.io
 
 production: true
 
-markdown: redcarpet
 pygments: true
 
 permalink: /blog/:title

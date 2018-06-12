@@ -3,8 +3,6 @@ url: http://maison.io
 
 production: true
 
-pygments: true
-
 permalink: /blog/:title
 
 paginate: 5

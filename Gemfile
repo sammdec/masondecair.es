@@ -1,15 +1,12 @@
 source 'https://rubygems.org'
 
-ruby '2.1.2'
+ruby '2.5.1'
 
 # Static site generator
-gem 'github-pages'
+gem 'github-pages', group: :jekyll_plugins
 
 # Mixins
-gem 'bourbon'
+gem 'bourbon', '~> 5.0'
 
 # Grid system
-gem 'neat'
-
-#Fast web server
-gem 'thin'
+gem 'neat', '~> 2.1'

@@ -1,39 +1,44 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <link rel="icon" href="/img/favicon.ico">
 
   <title>Sam Mason x {% if page.title %} {{page.title}} {% else %}Developer {% endif %} </title>
-  <meta name="description" content="I'm Sam Mason a London based developer, and this is my collection of stories &amp; posts.">
+  <meta name="description" content="I'm Sam Mason a London based developer.">
 
   <link rel="stylesheet" href="/css/main.css">
 </head>
+
 <body>
   <header class="container">
-      <h1><a href="/">Sam Mason</a></h1>
-      <nav>
-        <a href="/projects/">Projects</a>
-      </nav>
+    <h1>
+      <a href="/">Sam Mason</a>
+    </h1>
+    <nav>
+      <a href="/projects/">Projects</a>
+    </nav>
   </header>
 
   <section class="page-content container">
     {{ content }}
   </section>
 
-  <footer class="container">
-    <small>Made in London with <img class="heart-icon" src="/img/heart.png" alt="heart icon"> by Sam Mason</small>
-  </footer>
+  <script>
+    !function (g, s, q, r, d) {
+      r = g[r] = g[r] || function () {
+        (r.q = r.q || []).push(
+          arguments)
+      }; d = s.createElement(q); q = s.getElementsByTagName(q)[0];
+      d.src = '//d1l6p2sc9645hc.cloudfront.net/tracker.js'; q.parentNode.
+        insertBefore(d, q)
+    }(window, document, 'script', '_gs');
 
-    <script>
-      !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
-      arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
-      d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
-      insertBefore(d,q)}(window,document,'script','_gs');
-
-      _gs('GSN-564854-X');
-    </script>
+    _gs('GSN-564854-X');
+  </script>
 
 </body>
+
 </html>

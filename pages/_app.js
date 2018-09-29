@@ -16,6 +16,7 @@ export default class MyApp extends App {
             name="viewport"
             content="initial-scale=1.0, width=device-width, shrink-to-fit=no"
           />
+          <link rel="icon" href="/static/images/favicon.png" />
         </Head>
         <GlobalStyles />
         <BorderStyles />

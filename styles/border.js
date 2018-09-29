@@ -18,12 +18,13 @@ export default createGlobalStyle`
   }
   
   body::before {
-    position: absolute;
+    position: fixed;
     content: "";
     width: 12px;
     top: 0;
     bottom: 0;
     left: 0;
+    height: 100%;
     z-index: 5;
     border-right: 12px solid #ec6060;
     animation: ${colourFade} 12s linear infinite alternate; 

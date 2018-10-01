@@ -1,4 +1,2 @@
-_site
-.sass-cache
-.rbenv-gemsets
-/vendor
+.next
+public

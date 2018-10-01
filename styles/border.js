@@ -20,7 +20,6 @@ export default createGlobalStyle`
   body::before {
     position: fixed;
     content: "";
-    width: 12px;
     top: 0;
     bottom: 0;
     left: 0;
@@ -30,8 +29,7 @@ export default createGlobalStyle`
     animation: ${colourFade} 12s linear infinite alternate; 
 
     @media screen and (max-width: 650px) {
-      width: 4px;
-      border-right: 4px solid #ec6060;
+      border-right: 8px solid #ec6060;
     }
   }
 `

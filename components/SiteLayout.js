@@ -6,6 +6,7 @@ import { colours } from '../styles/vars'
 const Header = styled.header`
   display: flex;
   max-width: 720px;
+  padding: 0 24px;
   margin: 0 auto 24px;
   align-items: baseline;
   border-bottom: 1px solid ${colours.grey};
@@ -39,6 +40,7 @@ const Nav = styled.div`
 
 const Main = styled.section`
   max-width: 720px;
+  padding: 0 24px;
   margin: 0 auto;
 `
 

@@ -12,6 +12,7 @@ export default class MyApp extends App {
       <Container>
         <Head>
           <title>Sam Mason, Developer in London</title>
+          <meta name="description" content="A developer based in London building things for the web"/>
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width, shrink-to-fit=no"

@@ -33,23 +33,15 @@ export default () => (
     <p>
       I'm currently an engineer at Rapha bringing cycling and technology closer
       together. You can hear my ramblings on{' '}
-      <a href="http://twitter.com/samjbmason" title="Twitter Profile">
-        Twitter
-      </a>{' '}
-      and all of the code I write and open source is on{' '}
-      <a href="http://github.com/samjbmason" title="Github Profile">
-        GitHub
-      </a>
-      .
+      <a href="http://twitter.com/samjbmason">Twitter</a> and all of the code I
+      write and open source is on{' '}
+      <a href="http://github.com/samjbmason">GitHub</a>.
     </p>
 
     <p>
-      The source code for this site can be found{' '}
-      <a
-        href="https://github.com/samjbmason/samjbmason.github.io"
-        title="Source code for site"
-      >
-        here
+      The{' '}
+      <a href="https://github.com/samjbmason/samjbmason.github.io">
+        source code for this site can be found here
       </a>
       . Feel free to suggest fixes for bugs or improvements.
     </p>

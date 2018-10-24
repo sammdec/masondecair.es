@@ -19,13 +19,14 @@
   },
   "homepage": "https://github.com/samjbmason/samjbmason.github.io#readme",
   "dependencies": {
-    "next": "^7.0.0",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "next": "^7.0.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
     "rebass": "^3.0.0-9",
     "styled-components": "^4.0.0-beta.9"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.7.1"
+    "babel-plugin-styled-components": "^1.8.0",
+    "promisfy": "^1.1.4"
   }
 }

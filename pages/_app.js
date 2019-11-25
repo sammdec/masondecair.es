@@ -1,5 +1,5 @@
 import React from 'react'
-import App, { Container } from 'next/app'
+import App from 'next/app'
 import Head from 'next/head'
 import SiteLayout from '../components/SiteLayout'
 import GlobalStyles from '../styles/global'
@@ -9,15 +9,14 @@ export default class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props
     return (
-      <Container>
+      <>
         <Head>
           <title>Sam Mason, Developer in London</title>
-          <meta name="description" content="A developer based in London building things for the web"/>
           <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width, shrink-to-fit=no"
+            name="description"
+            content="A developer based in London building things for the web"
           />
-          <link rel="icon" href="/static/images/favicon.png" />
+          <link rel="icon" href="/favicon.png" />
 
           <script
             dangerouslySetInnerHTML={{
@@ -37,7 +36,7 @@ export default class MyApp extends App {
         <SiteLayout>
           <Component {...pageProps} />
         </SiteLayout>
-      </Container>
+      </>
     )
   }
 }

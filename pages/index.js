@@ -31,8 +31,8 @@ export default () => (
     </p>
 
     <p>
-      You can find me on <a href="http://twitter.com/samjbmason">Twitter</a> and
-      at <a href="http://github.com/samjbmason">GitHub</a>.
+      You can find me on <a href="http://twitter.com/sammdec">Twitter</a> and
+      at <a href="http://github.com/sammdec">GitHub</a>.
     </p>
 
     <p>I live in South London with my family, and our surly cat, Rufus.</p>

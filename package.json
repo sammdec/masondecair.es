@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/samjbmason/samjbmason.github.io#readme",
   "dependencies": {
-    "next": "^9.1.4",
+    "next": "^11.1.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "rebass": "^3.0.0-9",
